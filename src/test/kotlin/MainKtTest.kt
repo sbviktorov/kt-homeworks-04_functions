@@ -83,9 +83,6 @@ class MainKtTest {
         assertEquals(expectedCommissionValue, actualCommissionValue)
     }
 
-
-//todo
-
     @Test
     fun commissionVisaCommission35Rub() {
         //arrange
@@ -150,7 +147,6 @@ class MainKtTest {
         //assert
         assertEquals(expectedCommissionValue, actualCommissionValue)
     }
-    //todo
 
     @Test
     fun commissionVKPay() {
@@ -164,7 +160,6 @@ class MainKtTest {
         //assert
         assertEquals(expectedCommissionValue, actualCommissionValue)
     }
-
 
     @Test
     fun commissionVKPayAmountHigher15k() {
