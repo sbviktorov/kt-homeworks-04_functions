@@ -242,7 +242,7 @@ class MainKtTest {
         val cardType = "Maestro"
         val amount: Long = 150000
         val lastTransfer: Long = 450000
-        val expectedCommissionValue = true
+        val expectedCommissionValue = false
         //act
         val actualCommissionValue = ru.netology.limit(cardType, lastTransfer, amount)
         //assert
